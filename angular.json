@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "alcorrespondente"
+  "defaultProject": "alcorrespondente",
+  "cli": {
+    "analytics": false
+  }
 }
