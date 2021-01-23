@@ -1,14 +1,14 @@
-<nav>
+<nav class="mat-elevation-z6">
   <mat-toolbar>
     <mat-toolbar-row class="container">
-      <a id="logo" routerLink="/"
-        ><img src="assets/logo.svg" alt="AL Correspondente" height="20" />
-        AL Correspondente
+      <a id="logo" routerLink="/" class="me-5">
+        <img src="assets/logo.svg" alt="AL Correspondente" height="20" class="me-2" /> AL Correspondente
       </a>
       <a mat-button class="hide-small" href="#sobre">Sobre</a>
-      <a mat-button class="hide-small" href="#sim">Financiamento</a>
-      <a mat-button class="hide-small" href="#provasocial">FAQ</a>
-      <a mat-button class="hide-small" href="#redesociais">Contato</a>
+      <a mat-button class="hide-small" href="#servicos">Serviços</a>
+      <!-- <a mat-button class="hide-small" href="#sim">Financiamento</a>
+      <a mat-button class="hide-small" href="#provasocial">FAQ</a> -->
+      <a mat-button class="hide-small" href="#contato">Contato</a>
       <div class="spacer"></div>
       <a
         aria-label="AL Correspondente no WhatsApp"
@@ -21,7 +21,8 @@
         <img src="assets/whatsapp.svg" alt="whatsapp" height="24" />
       </a>
       <a
-        routerLink="/consulta"
+        href="https://habitacao.caixa.gov.br/siopiweb-web/simulaOperacaoInternet.do?method=inicializarCasoUso"
+        target="_blank"
         mat-flat-button
         color="primary"
         title="Agendar consulta on-line"
@@ -32,10 +33,121 @@
     </mat-toolbar-row>
   </mat-toolbar>
 </nav>
+<section id="destaque">
+  <div class="py-5">
+    <div class="container">
+        <div class="row align-items-center">
+          <div class="col-7">
+            <h1 class="mat-display-4 mb-2">Financiamento Habitacional</h1>
+            <h2 class="mat-subheading-2 lead mb-4">Comprar sua casa nova pode ser mais simples do que você imagina!</h2>
+            <div>
+              <a href="https://habitacao.caixa.gov.br/siopiweb-web/simulaOperacaoInternet.do?method=inicializarCasoUso" target="_blank" button mat-raised-button>Faça uma simulação</a>
+              <a href="#contato" button mat-button class="ms-3">Fale conosco</a>
+            </div>
+          </div>
+          <!-- <div class="col-5"></div> -->
+        </div>
+    </div>
+  </div>
+</section>
+<section id="vantagens" class="mat-elevation-z6 py-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-3">
+        <h2 class="mat-title">Flexibilidade</h2>
+        <p class="mat-body-1">Serviços realizados fora do expediente bancário, nos fins de semana e feriados, seguindo os horários do seu estabelecimento.</p>
+      </div>
+      <div class="col-3">
+        <h2 class="mat-title">Comodidade</h2>
+        <p class="mat-body-1">Disponibilidade de atendimento próximo da residência ou trabalho, sem necessidade de deslocamento para grandes centros.</p>
+      </div>
+      <div class="col-3">
+        <h2 class="mat-title">Acessibilidade</h2>
+        <p class="mat-body-1">Atendimento a todas as pessoas, inclusive quem não é correntista da CAIXA.</p>
+      </div>
+      <div class="col-3">
+        <h2 class="mat-title">Segurança</h2>
+        <p class="mat-body-1">Correspondentes treinado e capacitado para oferecer qualidade e segurança nos negócios e para a prestação de serviços.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<main id="servicos" class="py-5">
+  <div class="container">
+    <h1 class="mat-display-2 mb-2 text-center">Produtos e serviços</h1>
+    <h4 class="mat-subheading-1 lead mb-5 text-center">Tenha a sua disposição um portfólio completo de produtos e serviços</h4>
+    <div class="row">
+      <div class="col-4">
+        <h2 class="mat-title">Produtos negociais de relacionamento</h2>
+        <ul>
+          <li>Abertura de conta (Corrente Pessoa Física e Jurídica, Poupança)</li>
+          <li>Empréstimos PF e PJ (Consignado e Giro CAIXA)</li>
+          <li>Financiamento habitacional</li>
+          <li>Cheque Especial PF e PJ</li>
+          <li>Cartões de crédito</li>
+          <li>Produtos da CAIXA Seguros (Seguros, Consórcios, Capitalização)</li>
+        </ul>
+      </div>
+      <div class="col-4">
+        <h2 class="mat-title">Prestação de serviços transacionais</h2>
+        <ul>
+          <li>Movimentação de contas de clientes Caixa (saque, depósito, saldo, extrato e transferência)</li>
+          <li>Recebimento de boletos de cobrança (CAIXA e de outros bancos)</li>
+          <li>Recebimento de contas (água, luz, telefone e gás)</li>
+          <li>Recebimento de tributos (municipais e estaduais)</li>
+          <li>Recarga de celular</li>
+          <li>Recebimento de faturas da CAIXA (cartão de crédito e financiamento habitacional)</li>
+        </ul>
+      </div>
+      <div class="col-4">
+        <h2 class="mat-title">Prestação de serviços sociais</h2>
+        <ul>
+          <li>Pagamento de Bolsa Família</li>
+          <li>Pagamento de FGTS</li>
+          <li>Pagamento de Benefício do INSS</li>
+          <li>Pagamento de Seguro-Desemprego</li>
+          <li>Pagamento do PIS</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</main>
 
-<nav class="show-small" aria-label="Barra de Navegação da Seção">
-  <a mat-button href="#sobre">Sobre</a>
-  <a mat-button href="#sim">Financiamento</a>
-  <a mat-button href="#provasocial">FAQ</a>
-  <a mat-button href="#redesociais">Contato</a>
-</nav>
+<div id="contato">
+  <h1 class="mat-headline text-center p-3">Endereço</h1>
+  <div class="container">
+    <mat-list>
+      <a mat-list-item href="https://goo.gl/maps/xMPMNeJ2b8gkzW2m7"
+        ><mat-icon mat-list-icon>location_on</mat-icon>
+        <div mat-line>
+          R. das Pernambucanas, 407 - Sala 406 - Graças, Recife - PE, 52011-010
+        </div>
+      </a>
+      <mat-list-item
+        ><mat-icon mat-list-icon>access_time</mat-icon>
+        <div mat-line>8:00-12:00- 14:00-18:00</div>
+      </mat-list-item>
+      <a mat-list-item href="tel:8130719769"
+        ><mat-icon mat-list-icon>phone</mat-icon>
+        <div mat-line>(81) 3071-9769</div>
+      </a>
+    </mat-list>
+  </div>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.481070270608!2d-34.90215758461513!3d-8.05231098266894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab191ca7e78165%3A0x3892bad85e48dbec!2sAL%20CORRESPONDENTE!5e0!3m2!1spt-BR!2sbr!4v1611368033477!5m2!1spt-BR!2sbr"
+    width="100%"
+    height="450"
+    frameborder="0"
+    style="border: 0"
+    allowfullscreen=""
+    aria-hidden="false"
+    tabindex="0"></iframe>
+</div>
+<footer class="py-3">
+  <div class="container">
+    <p class="text-center">
+      <a href="/">AL CORRESPONDENTE E NEGOCIOS IMOBILIARIOS LTDA.</a> © 2020 Todos direitos reservados<br />CNPJ: 14.973.761/0001-34<br />
+      Desenvolvido pela
+      <a href="https://cafeinadesign.github.io/">Cafeína Design</a>
+    </p>
+  </div>
+</footer>
