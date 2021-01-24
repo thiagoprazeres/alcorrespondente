@@ -1,0 +1,18 @@
+#destaque {
+    color: whitesmoke;
+    background-color: #174472;
+    background-image: url('../../assets/bg.jpg');
+    background-size: 66% auto;
+    background-position: center right;
+    background-repeat: no-repeat;
+    h2.mat-subheading-2.lead{
+        font-family: 'Open Sans';
+    }
+}
+#quem-somos {
+    p.mat-body {
+        font-size: 16px;
+        font-family: 'Open Sans';
+        text-align: justify;
+    }
+}

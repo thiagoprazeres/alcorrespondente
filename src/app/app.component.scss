@@ -10,39 +10,6 @@ nav {
     }
   }
 }
-section#destaque > div {
-  background: rgb(23,68,114);
-  background: linear-gradient(125deg, rgba(23,68,114,1) 0%, rgba(23,68,114,0) 100%);
-}
-section#destaque {
-  color: whitesmoke;
-  background-color: #174472;
-  background-image: url('../assets/real-estate-agent-with-house-model-keys.jpg');
-  background-position: center center;
-  background-size: cover;
-  h2.mat-subheading-2 {
-    font-weight: 300;
-  }
-}
-section#vantagens {
-  color: white;
-  background-color: #174472;
-  h2 {
-    color: orange;
-  }
-}
-main#servicos {
-  h1 {
-    color: #174472;
-  }
-  h4 {
-    font-size: 20px;
-    font-weight: 300;
-  }
-  ol, ul {
-    padding-left: 1rem;
-  }
-}
 div#contato {
   background-color: whitesmoke;
   h1 {

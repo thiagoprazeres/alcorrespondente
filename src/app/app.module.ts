@@ -10,9 +10,12 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
+import { QuemSomosComponent } from './quem-somos/quem-somos.component';
+import { HomeComponent } from './home/home.component';
+import { VantagensComponent } from './vantagens/vantagens.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, QuemSomosComponent, HomeComponent, VantagensComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
