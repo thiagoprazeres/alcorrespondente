@@ -25,3 +25,9 @@ main#servicos {
         padding-left: 1rem;
     }
 }
+@media (max-width: 575.98px) {
+    section#destaque h1.mat-display-4 {
+        font-size: 56px;
+        line-height: normal;
+    }
+}

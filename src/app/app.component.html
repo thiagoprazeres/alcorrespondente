@@ -1,4 +1,4 @@
-<nav class="mat-elevation-z6">
+<nav>
   <mat-toolbar>
     <mat-toolbar-row class="container">
       <a id="logo" routerLink="/" class="me-5">
@@ -33,6 +33,12 @@
     </mat-toolbar-row>
   </mat-toolbar>
 </nav>
+<nav class="show-small" aria-label="Barra de Navegação da Seção">
+  <a mat-button routerLink="/quem-somos">Quem Somos</a>
+  <a mat-button href="#servicos">Serviços</a>
+  <a mat-button href="https://habitacao.caixa.gov.br/siopiweb-web/simulaOperacaoInternet.do?method=inicializarCasoUso" target="_blank">Simular</a>
+  <a mat-button href="#contato">Contato</a>
+</nav>
 <router-outlet></router-outlet>
 <div id="contato">
   <h1 class="mat-headline text-center p-3">Fale conosco</h1>
@@ -52,20 +58,14 @@
         ><mat-icon mat-list-icon color="primary">phone</mat-icon>
         <div mat-line>(81) 3071-9769</div>
       </a>
-      <!-- <a
-        
-        
-        
-        href=""
-        
-        class="icon-button"
-      >
-        
-      </a> -->
       <a aria-label="AL Correspondente no WhatsApp" target="_blank" mat-list-item href="https://api.whatsapp.com/send?phone=558192938680&text=Ol%C3%A1%2C%20Maria%20de%20F%C3%A1tima%21%20Quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20minha%20casa%20pr%C3%B3pria%21"
       rel="noopener" title="WhatsApp">
         <img src="assets/whatsapp.svg" alt="whatsapp" height="24" mat-list-icon>
         <div mat-line>(81) 9293-8680</div>
+      </a>
+      <a mat-list-item href="mailto:fatima@alcorrespondente.com.br"
+        ><mat-icon mat-list-icon>mail</mat-icon>
+        <div mat-line>fatima@alcorrespondente.com.br</div>
       </a>
     </mat-list>
   </div>
